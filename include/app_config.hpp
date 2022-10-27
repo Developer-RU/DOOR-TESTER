@@ -16,7 +16,7 @@
 
 
 #define TIME_PRESS      1500
-#define TIME_PROC       5000
+#define TIME_PROC       8000
 
 
 #endif

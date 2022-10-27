@@ -29,7 +29,6 @@ void setup()
  */
 void loop() 
 {
-
     if(Serial.available())
     {
         delay(20);
@@ -66,7 +65,7 @@ void loop()
     if(flagStart == true && millis() < timerTest + TIME_PROC)
     {
 
-        digitalWrite(PIN_RELE, LOW);
+        // digitalWrite(PIN_RELE, LOW);
 
 
         if(digitalRead(POS_GERCON) == LOW)
